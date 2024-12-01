@@ -109,6 +109,9 @@ header {
 .logo img {
     height: 30px;
 }
+.logo {
+    border: none;
+}
 
 /* Navigation bar styles */
 nav ul {
