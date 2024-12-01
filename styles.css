@@ -173,12 +173,12 @@ footer {
 .image-container{
     position: relative;
     display: inline-block;
+    border: none;
 }
 
 .image-container img {
     max-width: 100%; 
     height: auto; 
-    border: none;
 }
 
 .overlay-text {
