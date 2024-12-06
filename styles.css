@@ -4,6 +4,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
+    
 }
 
 /* Paragrafu stilius*/
@@ -83,9 +84,18 @@ section {
     
 }
 
-.dark-mode {
-    background-color: #121212;
-    color: white;
+body {
+    margin: 0;
+    padding-top: 60px; 
+    background-color: #ffffff; 
+    color: #000000;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #232323; 
+    color: #ffffff; 
 }
 
 /* 10lab */
@@ -190,4 +200,13 @@ footer {
 #mainas img {
     width: 100%;
     height: auto;
+}
+.clock {
+    color:black; 
+    font-size: 16px; 
+    font-weight: bold;
+    border: none;
+}
+#troll{
+    border: none;
 }
