@@ -25,6 +25,7 @@
                 <li><a href="#services">Paslaugos</a></li>
                 <li><a href="#contact">Kontaktai</a></li>
                 <li><a href="#math">Matematika</a></li>
+                <li><a href="#contact">Forma</a></li>
             </ul>
         </nav>
         <div id="clock" class="clock"></divid></div>
@@ -131,6 +132,56 @@
                         repeatCount="indefinite" />
                 </g>
             </svg>
+        </section>
+        <section id="contact">
+            <h2>Kontaktinė Forma</h2>
+            <form id="contact-form" class="contact-form">
+                <p>
+                    <label for="first-name">Vardas:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </p>
+                <p>
+                    <label for="last-name">Pavardė:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </p>
+                <p>
+                    <label for="email">El. pašto adresas:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="phone">Tel. nr:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </p>
+                <p>
+                    <label for="address">Adresas:</label>
+                    <input type="text" id="address" name="address" required>
+                </p>
+                <p>
+                    <label for="attribute1">1:</label>
+                    <input type="number" id="attribute1" name="attribute1" required>
+                </p>
+                <p>
+                    <label for="attribute2">2:</label>
+                    <input type="number" id="attribute2" name="attribute2" required>
+                </p>
+                <p>
+                    <label for="attribute3">3:</label>
+                    <input type="number" id="attribute3" name="attribute3" required>
+                </p>
+                <p>
+                    <label for="attribute4">4:</label>
+                    <input type="number" id="attribute4" name="attribute4" required>
+                </p>
+                <p>
+                    <label for="attribute5">5:</label>
+                    <input type="number" id="attribute5" name="attribute5" required>
+                </p>
+                <p>
+                    <button type="button" id="submit-button">Pateikti</button>
+                </p>
+            </form>
+            <div id="contact-result"></div>
+            <div id="average-result"></div>
         </section>
     
     </main>
