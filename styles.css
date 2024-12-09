@@ -210,3 +210,25 @@ footer {
 #troll{
     border: none;
 }
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.contact-form input {
+    flex: 2;
+}
